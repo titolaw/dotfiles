@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+enter",
+    "command": "python.execInTerminal"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "ipynb.newUntitledIpynb"
+  }
+]

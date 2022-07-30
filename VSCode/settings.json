@@ -1,0 +1,19 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 30,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": null
+  },
+  "python.formatting.blackArgs": ["--line-length", "120"],
+  "python.formatting.provider": "black",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "normal",
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "workbench.colorTheme": "Abyss"
+}
+
