@@ -1,12 +1,23 @@
 fortune | cowsay
+
+## ALIAS ##
+
+# updates e insts
 alias aptup='sudo apt update && sudo apt upgrade'
 alias sup='sudo snap refresh'
 alias fup='sudo flatpak update'
 alias aptin='sudo apt install'
 alias aptrm='sudo apt remove'
 alias aptar='sudo apt autoremove'
-alias ..='cd ..'
+
+# pastas recorrentes
 alias work='cd Documents/workspace_'
+
+# ls com flags
 alias lah='ls -lah --color=auto'
+
+# confirmacoes
 alias rm='rm -i'
 alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
