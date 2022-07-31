@@ -1,0 +1,12 @@
+fortune | cowsay
+alias aptup='sudo apt update && sudo apt upgrade'
+alias sup='sudo snap refresh'
+alias fup='sudo flatpak update'
+alias aptin='sudo apt install'
+alias aptrm='sudo apt remove'
+alias aptar='sudo apt autoremove'
+alias ..='cd ..'
+alias work='cd Documents/workspace_'
+alias lah='ls -lah --color=auto'
+alias rm='rm -i'
+alias mv='mv -i'

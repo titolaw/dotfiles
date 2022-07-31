@@ -115,13 +115,31 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-# custom
-fortune | cowsay
-alias up='sudo apt update && sudo apt upgrade'
-alias sup='sudo snap refresh'
-alias fup='sudo flatpak update'
-alias ..='cd ..'
-alias work='cd Documents/workspace_'
+### CUSTOM ###
+
+
+# navigation
+up () {
+  local d=""
+  local limit="$1"
+
+  # Default to limit of 1
+  if [ -z "$limit" ] || [ "$limit" -le 0 ]; then
+    limit=1
+  fi
+
+  for ((i=1;i<=limit;i++)); do
+    d="../$d"
+  done
+
+  # perform cd. Show error if cd fails
+  if ! cd "$d"; then
+    echo "Couldn't go up $limit dirs.";
+  fi
+}
+
+
+### CUSTOM ###
 
 
 export NVM_DIR="$HOME/.nvm"
