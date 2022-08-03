@@ -1,6 +1,12 @@
 # dotfiles
 
-- creating Symbolic Links: ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+## criando Symbolic Links:
+
+- ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+
+- ln -s ~/.dotfiles/.bashrc ~/.bashrc
+
+- ln -s ~/.dotfiles/.bash_aliases ~/.bash_aliases
 
 - ln -s ~/.dotfiles/VSCode/keybindings.json ~/.config/Code/User/keybindings.json
 
