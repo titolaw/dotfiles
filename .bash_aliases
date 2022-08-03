@@ -2,7 +2,7 @@ fortune | cowsay
 
 ## ALIAS ##
 
-# updates e insts
+# updates e instalacoes
 alias aptup='sudo apt update && sudo apt upgrade'
 alias sup='sudo snap refresh'
 alias fup='sudo flatpak update'
@@ -21,3 +21,6 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
 alias ln='ln -i'
+
+#desligar(acrescentar +<min>)
+alias offtimer='sudo shutdown -P '
