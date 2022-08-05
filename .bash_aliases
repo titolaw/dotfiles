@@ -12,6 +12,7 @@ alias aptar='sudo apt autoremove'
 
 # pastas recorrentes
 alias work='cd Documents/workspace_'
+alias pandas='cd ~/Documents/workspace_/Python/Udemy_pandas/pandas_datasets'
 
 # ls com flags
 alias lah='ls -lah --color=auto'
