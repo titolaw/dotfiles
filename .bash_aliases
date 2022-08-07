@@ -23,5 +23,8 @@ alias mv='mv -i'
 alias cp='cp -i'
 alias ln='ln -i'
 
-#desligar(acrescentar +<min>)
+# meteorologia
+alias clima='curl wttr.in'
+
+# desligar(acrescentar +<min>)
 alias offtimer='sudo shutdown -P '
