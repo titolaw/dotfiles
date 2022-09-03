@@ -11,7 +11,7 @@ alias aptrm='sudo apt remove'
 alias aptar='sudo apt autoremove'
 
 # pastas recorrentes
-alias work='cd Documents/workspace_'
+alias work='cd ~/Documents/workspace_'
 
 # ls com flags
 alias lah='ls -lah --color=auto'
