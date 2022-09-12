@@ -15,6 +15,7 @@ alias work='cd ~/Documents/workspace_'
 
 # ls com flags
 alias lah='ls -lah --color=auto'
+alias lf='ls -F'
 
 # confirmacoes
 alias rm='rm -i'
