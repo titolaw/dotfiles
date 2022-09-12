@@ -11,3 +11,9 @@
 - ln -s ~/.dotfiles/VSCode/keybindings.json ~/.config/Code/User/keybindings.json
 
 - ln -s ~/.dotfiles/VSCode/settings.json ~/.config/Code/User/settings.json
+
+## options
+
+#Doesn't allow output redirection (>) to overwrite an existing file
+
+- set -o noclobber
