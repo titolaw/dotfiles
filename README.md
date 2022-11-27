@@ -14,6 +14,6 @@
 
 ## options
 
-#Doesn't allow output redirection (>) to overwrite an existing file
+### Doesn't allow output redirection (>) to overwrite an existing file
 
 - set -o noclobber
