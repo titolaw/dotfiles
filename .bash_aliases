@@ -28,3 +28,8 @@ alias clima='curl wttr.in'
 
 # desligar(acrescentar +<min>)
 alias offtimer='sudo shutdown -P '
+
+#ion f
+alias pion='cd ~/Documents/OLDGAMES/ion'
+alias ion='wine ~/Documents/OLDGAMES/ion/eduke32.exe'
+alias jion='pion && ion'
