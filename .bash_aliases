@@ -12,6 +12,7 @@ alias aptar='sudo apt autoremove'
 
 # pastas recorrentes
 alias work='cd ~/Documents/workspace_'
+alias rct='cd ~/Documents/workspace_/receitas'
 
 # ls com flags
 alias lah='ls -lah --color=auto'
