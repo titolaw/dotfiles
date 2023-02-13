@@ -36,4 +36,4 @@ alias ion='wine ~/Documents/OLDGAMES/ion/eduke32.exe'
 alias jion='pion && ion'
 
 #scripts
-alias gtob='cd && ./gitobi.sh'
+alias gt='cd ~/Documents/workspace_/scripts && ./git.sh'
