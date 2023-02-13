@@ -138,6 +138,14 @@ up () {
   fi
 }
 
+#navigation
+
+# pyspark
+
+export SPARK_HOME=/opt/spark
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+
+# pyspark
 
 ### CUSTOM ###
 

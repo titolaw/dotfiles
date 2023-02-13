@@ -1,6 +1,6 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.fontSize": 30,
+  "editor.fontSize": 21,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[python]": {
     "editor.defaultFormatter": null
@@ -14,6 +14,5 @@
   "editor.fontWeight": "normal",
   "editor.wordWrap": "on",
   "editor.linkedEditing": true,
-  "workbench.colorTheme": "Abyss"
+  "workbench.colorTheme": "Kimbie Dark"
 }
-
