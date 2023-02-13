@@ -12,7 +12,6 @@
 
 - ln -s ~/.dotfiles/VSCode/settings.json ~/.config/Code/User/settings.json
 
-- ln -s ~/.dotfiles/scripts/gitobi.sh ~/gitobi.sh
 
 ## options
 
