@@ -17,6 +17,7 @@ alias rct='cd ~/Documents/workspace_/receitas'
 # ls com flags
 alias lah='ls -lah --color=auto'
 alias lf='ls -F'
+alias lt='ls --human-readable --size -1 -S --classify'
 
 # confirmacoes
 alias rm='rm -i'
@@ -30,10 +31,13 @@ alias clima='curl wttr.in'
 # desligar(acrescentar +<min>)
 alias offtimer='sudo shutdown -P '
 
-#ion f
+# ion f
 alias pion='cd ~/Documents/OLDGAMES/ion'
 alias ion='wine ~/Documents/OLDGAMES/ion/eduke32.exe'
 alias jion='pion && ion'
 
-#scripts
+# scripts
 alias gt='cd ~/Documents/workspace_/scripts && ./git.sh'
+
+# miisspellings
+alias bim='vim'

@@ -12,6 +12,7 @@
 
 - ln -s ~/.dotfiles/VSCode/settings.json ~/.config/Code/User/settings.json
 
+- ln -s ~/.dotfiles/.vimrc ~/.vimrc
 
 ## options
 
