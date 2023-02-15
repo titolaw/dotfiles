@@ -38,6 +38,7 @@ alias jion='pion && ion'
 
 # scripts
 alias gt='cd ~/Documents/workspace_/scripts && ./git.sh'
+alias mp3='cd ~/Documents/workspace_/scripts && ipython3 yt.py'
 
 # miisspellings
 alias bim='vim'
