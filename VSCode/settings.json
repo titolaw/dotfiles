@@ -14,5 +14,6 @@
   "editor.fontWeight": "normal",
   "editor.wordWrap": "on",
   "editor.linkedEditing": true,
-  "workbench.colorTheme": "Kimbie Dark"
+  "workbench.colorTheme": "Kimbie Dark",
+  "editor.lineNumbers": "relative"
 }
