@@ -9,6 +9,7 @@ alias fup='sudo flatpak update'
 alias aptin='sudo apt install'
 alias aptrm='sudo apt remove'
 alias aptar='sudo apt autoremove'
+alias updt='aptup -y && fup -y && sup'
 
 # pastas recorrentes
 alias work='cd ~/Documents/workspace_'
