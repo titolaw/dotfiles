@@ -10,7 +10,6 @@ alias aptin='sudo apt install'
 alias aptrm='sudo apt remove'
 alias aptar='sudo apt autoremove'
 alias updt='aptup -y && fup -y && sup'
-# teste
 
 # pastas recorrentes
 alias work='cd ~/Documents/workspace_'
